@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore - Wander Lust</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="../CSS/nav.css">
+    <link rel="stylesheet" href="../CSS/hero.css">
+    <link rel="stylesheet" href="../CSS/hero2.css">
+    <link rel="stylesheet" href="../CSS/sideNav.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="stylesheet" href="../CSS/explore.css">
+    <!-- <link rel="stylesheet" href="../CSS/booking.css"> -->
+
+    <!-- Title Image -->
+    <link rel="Website icon" type="png" href="../Img/F2.png">
+
+    <!-- JavaScript File Link -->
+    <script type="text/javascript" src="../JS/app.js" defer></script>
+
+    <style>
+        .main .container {
+            background: linear-gradient(to left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../Img/c3.jpg');
+            background-position: bottom;
+            background-attachment: fixed;
+            background-size: cover;
+            min-height: 400px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Logo and Website Name And Navigation Bar -->
+    <script src="../JS/nav.js"></script>
+
+    <!-- Aside or SideBar Menu -->
+    <script src="../JS/aside.js"></script>
+
+    <!-- Main Content Section -->
+    <main class="main">
+
+        <!-- Main Section -->
+        <div class="container">
+            <h1 class="hero-head">Choose Your Trip</h1>
+        </div>
+
+        <div class="gallery-container">
+            <h1>Select Your Desired Place</h1>
+
+            <!-- Filter Buttons -->
+            <div class="filter-btns">
+                <button class="filter-btn" onclick="filterSelection('all')"> Show All</button>
+                <button class="filter-btn" onclick="filterSelection('Asia')"> Asia</button>
+                <button class="filter-btn" onclick="filterSelection('Europe')"> Europe</button>
+                <button class="filter-btn" onclick="filterSelection('South America')"> South America</button>
+            </div>
+        
+            <!-- Image Gallery -->
+            <script src="../JS/gallery-card.js"></script>
+        </div>
+
+    </main>
+    <!-- Footor -->
+    <script src="../JS/footer.js"></script>
+
+    <!-- JavarScript to change color of navbar on scrolling -->
+    <script src="../JS/scroll.js"></script>
+
+    <!-- Filering Code -->
+    <script src="../JS/explore.js"></script>
+</body>
+
+</html>
