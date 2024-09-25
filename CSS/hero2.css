@@ -1,0 +1,139 @@
+/* Small Panel Section Start */
+.panel-container {
+    background-color: #fff;
+    width: 100%;
+    min-height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+
+.panel-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 280px;
+    height: 200px;
+    margin: 5px;
+    padding: 30px;
+}
+
+.panel-card .img {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.panel-card .pan {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+/* Search Tour Section */
+.search-panel-container {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../Img/P2.jpeg');
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+    height: 50vh;
+}
+
+.search-panel .search-panel-head {
+    color: #fff;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+
+.ro {
+    font-size: 1.9rem;
+}
+
+.ro1 {
+    color: blue;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+select {
+    color: #000;
+    font-weight: bold;
+    padding: 8px 10px;
+    height: 40px;
+    width: 200px;
+    margin: 4px;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+input {
+    color: #000;
+    font-weight: bold;
+    width: 200px;
+    margin: 4px;
+    padding: 8px 10px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.search-panel input:focus,
+select:focus {
+    outline: none;
+}
+
+.search-panel form .search-btn {
+    margin: 4px;
+    padding: 8px 10px;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    background-color: #13699b;
+}
+
+/* Top Destination Panel */
+.destination-container {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.destination-panel-head {
+    color: #000;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+.choice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px 30px;
+}
+
+.choice .text {
+    margin: 5px;
+    padding: 10px;
+    width: 250px;
+    color: blue;
+}

@@ -1,0 +1,87 @@
+/* Team section */
+.team-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.team-section h1 {
+    margin-bottom: 40px;
+    font-size: 2.5em;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.team-section h1::after{
+    content: "";
+    position: absolute;
+    margin: 0 0 -10px 0;
+    bottom: 5px;
+    width: 6%;
+    background-color: #3498db;
+    z-index: -1;
+    height: 10%;
+}
+
+/* Team container */
+.team-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    justify-content: center;
+    gap: 4px;
+    width: 100%;
+    /* max-width: 1200px; */
+    margin: 0 5px;
+}
+
+/* Team member */
+.team-member {
+    background-color: white;
+    padding: 20px;
+    margin: 0 5px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.team-member img {
+    /* border-radius: 50%; */
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.team-member h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Social icons */
+.social-icons a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 1.2em;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #0073e6; /* Change color on hover */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .team-container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}

@@ -1,0 +1,23 @@
+#side{
+    display: grid;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    z-index: 0;
+}
+
+.side-ul{
+    width: 0;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-ul .side-item{
+    margin: 20px 30px;
+}
+
+.side-ul .side-item a{
+    text-decoration: none;
+    color: #fff;
+}
