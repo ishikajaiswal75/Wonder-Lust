@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WanderLust</title>
+
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap"
+    rel="stylesheet">
+    
+    <!-- CSS File Links -->
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/nav.css">
+    <link rel="stylesheet" href="CSS/hero.css">
+    <link rel="stylesheet" href="CSS/hero2.css">
+    <link rel="stylesheet" href="CSS/sideNav.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <!-- Title Image -->
+    <link rel="Website icon" type="png" href="Img/F2.png">
+    
+    <!-- JavaScript File Link -->
+    <script type="text/javascript" src="JS/app.js" defer></script>
+</head>
+
+<body>
+    <!-- Logo and Website Name And Navigation Bar -->
+    <script src="JS/indexNav.js"></script>
+
+    <!-- Aside or SideBar Menu -->
+    <script src="JS/indexAside.js"></script>
+
+    <!-- Main Content Section -->
+    <main class="main">
+
+        <!-- Main Section -->
+        <div class="container">
+            <p class="hero-para">Let's travel the world with us</p>
+            <h1 class="hero-head">Explore the world<br>with our guide</h1>
+            <div class="btn">
+                <a href="Files/Explore.html" class="btn2">Explore</a>
+            </div>
+        </div>
+
+        <!-- Small Section  -->
+        <section class="panel-container">
+            <div class="panel-card">
+                <img src="Img/icon-1.png" alt="icon-1" class="icon">
+                <h3 class="pan">Best Price In The Industry</h3>
+                Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id.
+            </div>
+
+            <div class="panel-card">
+                <div class="img">
+                    <img src="Img/icon-2.png" alt="icon-2" class="icon">
+                </div>
+                <h3 class="pan">Super Fast Booking</h3>
+                Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id.
+            </div>
+
+            <div class="panel-card">
+                <div class="img">
+                    <img src="Img/icon-3.png" alt="icon-3" class="icon">
+                </div>
+                <h3 class="pan">500+ Destinations</h3>
+                Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id.
+            </div>
+
+            <div class="panel-card">
+                <div class="img">
+                    <img src="Img/icon-4.png" alt="icon-4" class="icon">
+                </div>
+                <h3 class="pan">Great Customer Support</h3>
+                Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id.
+            </div>
+        </section>
+
+        <!-- Search Tour Section -->
+        <section class="search-panel-container">
+            <div class="search-panel">
+                <h1 class="search-panel-head"><span class="ro"><i class="fa-solid fa-magnifying-glass"></i></span>
+                    Search Tour</h1>
+                <form action="#">
+                    <input type="text" name="Keyword" placeholder="Keyword">
+                    <!-- Destination selection -->
+                    <select name="Destinations">
+                        <option value="Any">Any</option>
+                        <option value="Asia">Asia</option>
+                        <option value="Africa">Africa</option>
+                        <option value="Europe">Europe</option>
+                        <option value="America">America</option>
+                        <option value="South Ameria">South Ameria</option>
+                        <option value="Eastern Europe">Eastern Europe</option>
+                    </select>
+                    <!-- Duration -->
+                    <select name="Duration">
+                        <option value="Any">Any</option>
+                        <option value="1 Day Tour">1 Day Tour</option>
+                        <option value="2-4 Days Tour">2-4 Days Tour</option>
+                        <option value="5-7 Days Tour">5-7 Days Tour</option>
+                        <option value="7+ Days Tour">7+ Days Tour</option>
+                    </select>
+                    <input type="date" name="Date" placeholder="Date">
+                    <button type="submit" name="search" class="search-btn">Search</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Top Destination -->
+        <section class="destination-container">
+            <h1 class="destination-panel-head"><span class="ro1"><i
+                        class="fa-sharp fa-solid fa-sliders"></i></span>&nbsp;Browse Tours By Category</h1>
+            <div class="choice">
+                <p class="text">Outdoor Activities</p>
+                <p class="text">City Tours</p>
+                <p class="text">Cultural & Thematic Tour</p>
+                <p class="text">Indulgence & Luxury Tours</p>
+                <p class="text">Family Friendly Tours</p>
+                <p class="text">Relaxation Tours</p>
+                <p class="text">Holiday & Seasonal Tours</p>
+                <p class="text">Wild & Adventure Tours</p>
+            </div>
+
+        </section>
+    </main>
+
+    <!-- Footor -->
+    <script src="JS/footer.js"></script>
+    
+    <!-- JavarScript to change color of navbar on scrolling -->
+    <script src="JS/scroll.js"></script>
+</body>
+
+</html>
